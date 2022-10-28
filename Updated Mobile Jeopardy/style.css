@@ -1,0 +1,149 @@
+
+body{
+    background-color: #1189dd;
+    
+    font-family: Arial, Helvetica, sans-serif;
+}
+h1{
+    color:black;
+    text-align: center;
+    font-size:4rem;
+}
+#gameboard{
+    display:grid;
+    grid-template-columns: repeat(4, 10rem);
+    grid-template-rows: repeat(4, 10rem);
+    list-style: none;
+    justify-content: center;
+    align-content: center;
+    text-align: center;
+    
+}
+#gameboard li{
+    background-color:#1189dd;
+    margin:.4rem;
+    border-radius:5px;
+    box-shadow: 2px 2px 5px black;
+    color: white;
+    padding-top: 3rem;
+    padding-left: 5px ;
+    padding-right: 5px;
+    font-weight: bold;
+    font-size: 1.7rem;
+    border: solid black;
+}
+#gameboard li:hover{
+    background-color: lightblue;
+    cursor:pointer;
+}
+
+#backdrop{
+    position:fixed;
+    top:0;
+    left:0;
+    width: 100%;
+    background-color: rgba(0,0,0,0.7);
+    display: none;
+}
+    
+#window{
+    position: fixed;
+    top: 20%;
+    left:5%;
+    width: 70%;
+    background-color: white; /*rgb(83, 82, 82);*/
+    color: black;
+    padding: 1rem;
+    border-radius: 6px;
+    box-shadow: 0 2px 8px black;
+    display: none;
+}
+
+#window1{
+   
+    display: none;
+}
+#window2{
+ 
+    display: none;
+}
+
+#window3{
+
+    display: none;
+}
+#window4{
+   
+    display: none;
+}
+
+#window5{
+    
+    display: none;
+}
+#window6{
+  
+    display: none;
+}
+#window7{
+    
+    display: none;
+}
+#window8{
+    
+    display: none;
+}
+#window9{
+    
+    display: none;
+}
+#window10{
+    
+    display: none;
+}
+#window11{
+    
+    display: none;
+}
+#window12{
+    
+    display: none;
+}
+
+.correctanswer{
+    color: green;
+    display: none;   
+}
+
+.wronganswer{
+    color:red;
+    display: none;
+}
+
+.reset{
+    background-color: #1189dd;
+    color: white;
+    border-radius: 4px;
+    height:30px;
+    border: none;
+    box-shadow: 2px 2px 3px black;
+}
+
+#nxt-btn{
+    display: none;
+    width: 45%;
+}
+
+#finalScoreSection{
+    display: block;
+}
+
+h3{
+    text-align:center;
+}
+
+#calculate{
+    display:block;
+    width:45%;
+    margin:auto;
+}

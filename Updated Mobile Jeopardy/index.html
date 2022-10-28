@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jeopardy</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <script src="app.js" defer></script>
+
+</head>
+<body>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-xs-12">
+
+      
+    <div id="backdrop"></div>
+    <h1 id="maintitle">JJ Safety Jeopardy</h1>
+    <main>
+        <section id="overlaysection">
+                <div id="window">
+
+                <form id="myForm" name="myForm">
+            <div id="window1">
+                
+                    <h4>1. OSHA regulations for Aerial Lifts includes all requirements for Scissor Lifts.</h4>
+                    <input class="true" type="radio" name="btn-selection1" value="1" >&nbsp;<label for="correct">True</label><br>
+                    <input class="false" type="radio" name="btn-selection1" value="0">&nbsp;<label>False</label><br><br>
+            </div>
+            <div id="window2">
+                    <h4>2. ANSI standards classify Mobile Elevated Work Platforms into:</h4>
+                    <input class="false" type="radio" name="btn-selection2" value="0">&nbsp;<label>A. Three Groups and Two Types</label><br>
+                    <input class="false" type="radio" name="btn-selection2" value="0">&nbsp;<label>B. Aerial Work Platform Types</label><br>
+                    <input class="true" type="radio" name="btn-selection2" value="1">&nbsp;<label for="correct">C. Group A or Group B and Type 1, Type 2, Type 3</label><br>
+                    <input class="false" type="radio" name="btn-selection2" value="0">&nbsp;<label>D. Aerial Lifts and Scissor Lifts</label><br><br>
+                    
+                </div>
+
+
+
+            <div id="window3">
+                    <h4>3. OSHA standards that protect workers from hazards associated with aerial lifts are found in:</h4>
+                    <input class="true" type="radio" name="btn-selection3" value="1">&nbsp;<label>A. 1910 General Industry and 1926 Construction Industry</label><br>
+                    <input class="false" type="radio" name="btn-selection3" value="0">&nbsp;<label>B. The National Handbook of Aerial Lift Operations</label><br>
+                    <input class="false" type="radio" name="btn-selection3" value="0">&nbsp;<label>C. ANSI Standard A92.2-1973</label><br>
+                    <input class="false" type="radio" name="btn-selection3" value="0">&nbsp;<label>D. MEWP Safety Operator Guide</label><br><br>
+                    
+            </div>
+            <div id="window4">
+                    <h4>4. The updated ANSI Standards for MEWPs include all of the following, except:</h4>
+                    <input class="false" type="radio" name="btn-selection4" value="0">&nbsp;<label>A. A92.20  Equipment Design Standards for MEWPs</label><br>
+                    <input class="false" type="radio" name="btn-selection4" value="0">&nbsp;<label>B. A92.22  Safe Use of MEWPs</label><br>
+                    <input class="false" type="radio" name="btn-selection4" value="0">&nbsp;<label>C. A92.24  Training Requirements for MEWPs</label><br>
+                    <input class="true" type="radio" name="btn-selection4" value="1">&nbsp;<label>D. 1926.453  Aerial Lifts</label><br><br>
+                    
+            </div>
+
+            
+
+            <div id="window5">
+                    <h4>5. Aerial Lifts or MEWPs should be inspected at each of the following times, except:</h4>
+                    <input class="true" type="radio" name="btn-selection5" value="1">&nbsp;<label>A. Hourly</label><br>
+                    <input class="false" type="radio" name="btn-selection5" value="0">&nbsp;<label>B. Daily</label><br>
+                    <input class="false" type="radio" name="btn-selection5" value="0">&nbsp;<label>C. Weekly</label><br>
+                    <input class="false" type="radio" name="btn-selection5" value="0">&nbsp;<label>D. Monthly</label><br>
+                    <input class="false" type="radio" name="btn-selection5" value="0">&nbsp;<label>E. Annually</label><br><br>
+                   
+            </div>
+            <div id="window6">
+                    <h4>6. The three types of Recue Plans include all of the following, except:</h4>
+                    <input class="false" type="radio" name="btn-selection6" value="0">&nbsp;<label>A. Self-Rescue (by person involved)</label><br>
+                    <input class="false" type="radio" name="btn-selection6" value="0">&nbsp;<label>B. Assisted Rescue (by others in the work area)</label><br>
+                    <input class="true" type="radio" name="btn-selection6" value="1">&nbsp;<label>C. Robotic Rescue (by unmanned vehicle)</label><br>
+                    <input class="false" type="radio" name="btn-selection6" value="0">&nbsp;<label>D. Technical Rescue (by emergency services)</label><br><br>
+                    
+            </div>
+            <div id="window7">
+                    <h4>7. Which of the following is NOT a hazard associated with aerial lifts:</h4>
+                    <input class="false" type="radio" name="btn-selection7" value="0">&nbsp;<label>A. Falls from a height</label><br>
+                    <input class="false" type="radio" name="btn-selection7" value="0">&nbsp;<label>B. Tip overs</label><br>
+                    <input class="false" type="radio" name="btn-selection7" value="0">&nbsp;<label>C. Contact with overhead objects</label><br>
+                    <input class="true" type="radio" name="btn-selection7" value="1">&nbsp;<label>D. Asphyxiation</label><br><br>
+                    
+            </div>
+            <div id="window8">
+                    <h4>8. Persons are qualified to operate an aerial lift when they are: </h4>
+                    <input class="false" type="radio" name="btn-selection8" value="0">&nbsp;<label>A. Confident in their own ability to use a MEWP</label><br>
+                    <input class="true" type="radio" name="btn-selection8" value="1">&nbsp;<label>B. Trained and Authorized by the employer</label><br>
+                    <input class="false" type="radio" name="btn-selection8" value="0">&nbsp;<label>C. Aware of all hazards on the job site</label><br>
+                    <input class="false" type="radio" name="btn-selection8" value="0">&nbsp;<label>D. Familiar with operating procedures</label><br><br>
+                   
+            </div>
+            <div id="window9">
+                    <h4>9. Which of the following is NOT part of the updated A92.24 ANSI Training Standard for MEWPs? </h4>
+                    <input class="false" type="radio" name="btn-selection9" value="0">&nbsp;<label>A. Supervisor Training</label><br>
+                    <input class="false" type="radio" name="btn-selection9" value="0">&nbsp;<label>B. Occupant Training</label><br>
+                    <input class="false" type="radio" name="btn-selection9" value="0">&nbsp;<label>C. Qualified Operator Training</label><br>
+                    <input class="true" type="radio" name="btn-selection9" value="1">&nbsp;<label>D. Excavation and Trenching</label><br><br>
+                   
+            </div>
+            <div id="window10">
+                    <h4>10. Aerial Lifts with defects should be removed from service (tag out) until repairs are made.</h4>
+                    <input class="true" type="radio" name="btn-selection10" value="1">&nbsp;<label>A. True</label><br>
+                    <input class="false" type="radio" name="btn-selection10" value="0">&nbsp;<label>B. False</label><br><br>
+                   
+            </div>
+            <div id="window11">
+                    <h4>11. Employers must assure that work areas are inspected for hazards and take corrective actions to eliminate such hazards before and during operation of an aerial lift.</h4>
+                    <input class="true" type="radio" name="btn-selection11" value="1">&nbsp;<label>A. True</label><br>
+                    <input class="false" type="radio" name="btn-selection11" value="0">&nbsp;<label>B. False</label><br><br>
+                    
+            </div>
+            <div id="window12">
+                    <h4>12. Most Aerial Lifts require the use of a full body harness for fall protection. A body belt may only be used as part of a positioning device system where the worker:  </h4>
+                    <input class="false" type="radio" name="btn-selection12" value="0">&nbsp;<label>A. Weighs less than 100 pounds</label><br>
+                    <input class="true" type="radio" name="btn-selection12" value="1">&nbsp;<label>B. Cannot fall more than two feet</label><br>
+                    <input class="false" type="radio" name="btn-selection12" value="0">&nbsp;<label>C. Has more than 2 years experience with aerial lifts</label><br>
+                    <input class="false" type="radio" name="btn-selection12" value="0">&nbsp;<label>D. Is attached to two or more anchor points</label><br><br>
+                    
+            </div> 
+
+            </form>
+            <br>
+            <h5 class="correctanswer">Correct Answer!</h5>
+            <h5 class="wronganswer">Wrong!</h5>
+            <br>
+            <button id="nxt-btn">Next Question</button>
+
+        </div>
+
+
+            
+        </section>
+        <section>
+           <ol id="gameboard">
+            <li>Aerial Lifts</li>
+            <li>Scissor Lifts</li>
+            <li>Elevated Platforms</li>
+            <li>MEWPS</li>
+            
+            <li id="btn1">200</li>
+            <li id="btn2">200</li>
+            <li id="btn3">200</li>
+            <li id="btn4">200</li>
+
+            <li id="btn5">400</li>
+            <li id="btn6">400</li>
+            <li id="btn7">400</li>
+            <li id="btn8">400</li>
+
+            <li id="btn9">600</li>
+            <li id="btn10">600</li>
+            <li id="btn11">600</li>
+            <li id="btn12">600</li>
+           </ol>
+        </section>
+        <div id="finalScoreSection">
+        <h3>Calculate Final Score</h3><br>
+        <button id="calculate">Calculate</button>
+        <h3 id="final-score"></h3>
+        </div>
+    </main>
+</div>
+</div>
+</div>
+</body>
+</html>
